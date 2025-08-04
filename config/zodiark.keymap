@@ -1,12 +1,11 @@
 /*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
+ * ZMK config for split keyboard with 70 unique keys outputting "N1" to "N70"
  */
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include "macros.dtsi"
 
 / {
     keymap {
@@ -14,12 +13,12 @@
 
         default_layer {
             bindings = <
-                &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp N6   &kp N7                     &kp N36  &kp N37  &kp N38  &kp N39  &kp N40  &kp N41  &kp N42
-                &kp N8   &kp N9   &kp N10  &kp N11  &kp N12  &kp N13  &kp N14                    &kp N43  &kp N44  &kp N45  &kp N46  &kp N47  &kp N48  &kp N49
-                &kp N15  &kp N16  &kp N17  &kp N18  &kp N19  &kp N20  &kp N21                    &kp N50  &kp N51  &kp N52  &kp N53  &kp N54  &kp N55  &kp N56
-                            &kp N22  &kp N23  &kp N24  &kp N25  &kp N26        &kp N57  &kp N58  &kp N59  &kp N60  &kp N61
-                      &kp N27  &kp N28  &kp N29  &kp N30                                &kp N62  &kp N63  &kp N64  &kp N65
-                &kp N31  &kp N32  &kp N33  &kp N34  &kp N35                          &kp N66  &kp N67  &kp N68  &kp N69  &kp N70
+                &macro_n1   &macro_n2   &macro_n3   &macro_n4   &macro_n5   &macro_n6   &macro_n7                    &macro_n36  &macro_n37  &macro_n38  &macro_n39  &macro_n40  &macro_n41  &macro_n42
+                &macro_n8   &macro_n9   &macro_n10  &macro_n11  &macro_n12  &macro_n13  &macro_n14                   &macro_n43  &macro_n44  &macro_n45  &macro_n46  &macro_n47  &macro_n48  &macro_n49
+                &macro_n15  &macro_n16  &macro_n17  &macro_n18  &macro_n19  &macro_n20  &macro_n21                   &macro_n50  &macro_n51  &macro_n52  &macro_n53  &macro_n54  &macro_n55  &macro_n56
+                                 &macro_n22  &macro_n23  &macro_n24  &macro_n25  &macro_n26        &macro_n57  &macro_n58  &macro_n59  &macro_n60  &macro_n61
+                &macro_n27  &macro_n28  &macro_n29  &macro_n30  &macro_n31                            &macro_n62  &macro_n63  &macro_n64  &macro_n65
+                &macro_n32  &macro_n33  &macro_n34  &macro_n35  &macro_n70                            &macro_n66  &macro_n67  &macro_n68  &macro_n69
             >;
 
             sensor-bindings = <>;

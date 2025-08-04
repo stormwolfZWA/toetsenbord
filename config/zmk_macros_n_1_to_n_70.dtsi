@@ -1,0 +1,17 @@
+/ {
+    behaviors {
+        macro_n1  { compatible = "zmk,behavior-macro"; label = "N1";  #binding-cells = <0>; bindings = <&text_input "N1" &macro_tap>; };
+        macro_n2  { compatible = "zmk,behavior-macro"; label = "N2";  #binding-cells = <0>; bindings = <&text_input "N2" &macro_tap>; };
+        macro_n3  { compatible = "zmk,behavior-macro"; label = "N3";  #binding-cells = <0>; bindings = <&text_input "N3" &macro_tap>; };
+        macro_n4  { compatible = "zmk,behavior-macro"; label = "N4";  #binding-cells = <0>; bindings = <&text_input "N4" &macro_tap>; };
+        macro_n5  { compatible = "zmk,behavior-macro"; label = "N5";  #binding-cells = <0>; bindings = <&text_input "N5" &macro_tap>; };
+        macro_n6  { compatible = "zmk,behavior-macro"; label = "N6";  #binding-cells = <0>; bindings = <&text_input "N6" &macro_tap>; };
+        macro_n7  { compatible = "zmk,behavior-macro"; label = "N7";  #binding-cells = <0>; bindings = <&text_input "N7" &macro_tap>; };
+        macro_n8  { compatible = "zmk,behavior-macro"; label = "N8";  #binding-cells = <0>; bindings = <&text_input "N8" &macro_tap>; };
+        macro_n9  { compatible = "zmk,behavior-macro"; label = "N9";  #binding-cells = <0>; bindings = <&text_input "N9" &macro_tap>; };
+        macro_n10 { compatible = "zmk,behavior-macro"; label = "N10"; #binding-cells = <0>; bindings = <&text_input "N10" &macro_tap>; };
+        // ...
+        // Repeat up to macro_n70 following same format
+        macro_n70 { compatible = "zmk,behavior-macro"; label = "N70"; #binding-cells = <0>; bindings = <&text_input "N70" &macro_tap>; };
+    };
+};
