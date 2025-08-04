@@ -8,18 +8,18 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-{
+/ {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp N6   &kp N7                       &kp N35  &kp N36  &kp N37  &kp N38  &kp N39  &kp N40  &kp N41
-                &kp N8   &kp N9   &kp N10  &kp N11  &kp N12  &kp N13  &kp N14                      &kp N42  &kp N43  &kp N44  &kp N45  &kp N46  &kp N47  &kp N48
-                &kp N15  &kp N16  &kp N17  &kp N18  &kp N19  &kp N20  &kp N21                      &kp N49  &kp N50  &kp N51  &kp N52  &kp N53  &kp N54  &kp N55
-                               &kp N22  &kp N23  &kp N24  &kp N25  &kp N26         &kp N56  &kp N57  &kp N58  &kp N59  &kp N60
-                &kp N27  &kp N28  &kp N29  &kp N30  &kp N31                                  &kp N61  &kp N62  &kp N63  &kp N64
-                &kp N32  &kp N33  &kp N34  &kp N35                                          &kp N65  &kp N66  &kp N67  &kp N68  &kp N69  &kp N70
+                &kp N1   &kp N2   &kp N3   &kp N4   &kp N5   &kp N6   &kp N7                     &kp N36  &kp N37  &kp N38  &kp N39  &kp N40  &kp N41  &kp N42
+                &kp N8   &kp N9   &kp N10  &kp N11  &kp N12  &kp N13  &kp N14                    &kp N43  &kp N44  &kp N45  &kp N46  &kp N47  &kp N48  &kp N49
+                &kp N15  &kp N16  &kp N17  &kp N18  &kp N19  &kp N20  &kp N21                    &kp N50  &kp N51  &kp N52  &kp N53  &kp N54  &kp N55  &kp N56
+                            &kp N22  &kp N23  &kp N24  &kp N25  &kp N26        &kp N57  &kp N58  &kp N59  &kp N60  &kp N61
+                      &kp N27  &kp N28  &kp N29  &kp N30                                &kp N62  &kp N63  &kp N64  &kp N65
+                &kp N31  &kp N32  &kp N33  &kp N34  &kp N35                          &kp N66  &kp N67  &kp N68  &kp N69  &kp N70
             >;
 
             sensor-bindings = <>;
